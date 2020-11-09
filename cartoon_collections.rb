@@ -21,7 +21,7 @@ def find_the_cheese(cheese)
     if cheese.include?(i) == true
        return i 
     else
-        nil
+        return nil
     end
   end
 end
